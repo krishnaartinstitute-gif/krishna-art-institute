@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#navigation #main-menu ul li ul {
+	background: red;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+}
+#navigation #main-menu ul li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+</style>
+</head>
+<body>
+<div id="navigation">
+  <nav id="main-menu">
+    <ul>
+      <li>Hover Me
+        <ul>
+          <li>Item 1</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+</body>
+</html>
