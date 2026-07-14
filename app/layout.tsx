@@ -45,19 +45,19 @@ export default function RootLayout({
         {children}
         
         {/* Scripts */}
-        <script src="/assets/js/jquery-1.12.4.min.js"></script>
-        <script src="/assets/bootstrap/js/bootstrap.min.js"></script>			
-        <script src="/assets/owlcarousel/js/owl.carousel.min.js"></script>	
-        <script src="/assets/js/jquery-simple-mobilemenu.js?v=4"></script>			
-        <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="/assets/js/jquery.mixitup.js"></script>		
-        <script src="/assets/js/gsap.min.js"></script>
-        <script src="/assets/js/ScrollTrigger.min.js"></script>
-        {/* <script src="/assets/js/lenis.js"></script> */}			
-        <script src="/assets/js/scrolltopcontrol.js"></script>	
-        <script src="/assets/js/jquery.inview.min.js"></script>				
-        <script src="/assets/js/wow.min.js"></script>				
-        <script src="/assets/js/scripts.js"></script>
+        <Script src="/assets/js/jquery-1.12.4.min.js" />
+        <Script src="/assets/bootstrap/js/bootstrap.min.js" />			
+        <Script src="/assets/owlcarousel/js/owl.carousel.min.js" />	
+        <Script src="/assets/js/jquery-simple-mobilemenu.js?v=4" />			
+        <Script src="/assets/js/jquery.magnific-popup.min.js" />
+        <Script src="/assets/js/jquery.mixitup.js" />		
+        <Script src="/assets/js/gsap.min.js" />
+        <Script src="/assets/js/ScrollTrigger.min.js" />
+        {/* <Script src="/assets/js/lenis.js" /> */}			
+        <Script src="/assets/js/scrolltopcontrol.js" />	
+        <Script src="/assets/js/jquery.inview.min.js" />				
+        <Script src="/assets/js/wow.min.js" />				
+        <Script src="/assets/js/scripts.js" />
       </body>
     </html>
   );
