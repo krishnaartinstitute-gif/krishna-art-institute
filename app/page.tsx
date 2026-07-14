@@ -1214,7 +1214,7 @@ export default function Home() {
                   <div className="sf_contact">
                     <span className="ti-map" />
                     <h3>Office Address</h3>
-                    <p>California, USA</p>
+                    <p>Faridabad, India</p>
                   </div>
                 </div>
               </div>{/*- END COL */}

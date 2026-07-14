@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className={`${lexend.variable} antialiased`}>
       <head>
         {/* Latest Bootstrap min CSS */}
-        <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />		
+        <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
         {/* Font Awesome CSS */}
         <link rel="stylesheet" href="/assets/webfonts/themify-icons.css" />
         {/* All Min Css */}
@@ -31,32 +31,32 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
         {/* owl carousel Css */}
         <link rel="stylesheet" href="/assets/owlcarousel/css/owl.carousel.css" />
-        <link rel="stylesheet" href="/assets/owlcarousel/css/owl.theme.css" />						
+        <link rel="stylesheet" href="/assets/owlcarousel/css/owl.theme.css" />
         {/* MAGNIFIC CSS */}
         <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
         {/* jquery-simple-mobilemenu Css */}
-        <link rel="stylesheet" href="/assets/css/jquery-simple-mobilemenu.css" />			
+        <link rel="stylesheet" href="/assets/css/jquery-simple-mobilemenu.css" />
         {/* animate CSS */}
-        <link rel="stylesheet" href="/assets/css/animate.css" />			
-        {/* Style CSS */}					
+        <link rel="stylesheet" href="/assets/css/animate.css" />
+        {/* Style CSS */}
         <link rel="stylesheet" href="/assets/css/style.css?v=2" />
       </head>
       <body>
         {children}
-        
+
         {/* Scripts */}
         <Script src="/assets/js/jquery-1.12.4.min.js" />
-        <Script src="/assets/bootstrap/js/bootstrap.min.js" />			
-        <Script src="/assets/owlcarousel/js/owl.carousel.min.js" />	
-        <Script src="/assets/js/jquery-simple-mobilemenu.js?v=4" />			
+        <Script src="/assets/bootstrap/js/bootstrap.min.js" />
+        <Script src="/assets/owlcarousel/js/owl.carousel.min.js" />
+        <Script src="/assets/js/jquery-simple-mobilemenu.js?v=4" />
         <Script src="/assets/js/jquery.magnific-popup.min.js" />
-        <Script src="/assets/js/jquery.mixitup.js" />		
+        <Script src="/assets/js/jquery.mixitup.js" />
         <Script src="/assets/js/gsap.min.js" />
         <Script src="/assets/js/ScrollTrigger.min.js" />
-        {/* <Script src="/assets/js/lenis.js" /> */}			
-        <Script src="/assets/js/scrolltopcontrol.js" />	
-        <Script src="/assets/js/jquery.inview.min.js" />				
-        <Script src="/assets/js/wow.min.js" />				
+        {/* <Script src="/assets/js/lenis.js" /> */}
+        <Script src="/assets/js/scrolltopcontrol.js" />
+        <Script src="/assets/js/jquery.inview.min.js" />
+        <Script src="/assets/js/wow.min.js" />
         <Script src="/assets/js/scripts.js" />
       </body>
     </html>
